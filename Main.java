@@ -11,8 +11,11 @@ class Main {
 	//ml.printLinkedList();
 	//ml.insertAfter(ml.head.next.next, 99);
 	//ml.remove();
+//	ml.printLinkedList();
+	//ml.removeAtIndex(2);
 	ml.printLinkedList();
-	ml.removeAtIndex(2);
-	ml.printLinkedList();
+  ml.reverse();
+  System.out.println();
+  ml.printLinkedList();
   }
 }

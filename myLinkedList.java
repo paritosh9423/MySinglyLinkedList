@@ -97,5 +97,18 @@ public class myLinkedList {
 		}
 		return null;
 	}
+
+  public void reverse(){
+   Node current = this.head;
+   Node prev = null;
+   Node next = null;
+   while(current!=null){
+     next = current.next;
+     current.next = prev;
+     prev = current;
+     current= next;
+   }
+   this.head = prev;
+  }
 	
 }
